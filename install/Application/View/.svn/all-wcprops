@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/70/trunk/install/Application/View
+END
+footer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/67/trunk/install/Application/View/footer.tpl
+END
+generar.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/70/trunk/install/Application/View/generar.tpl
+END
+install.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/67/trunk/install/Application/View/install.tpl
+END
+header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/70/trunk/install/Application/View/header.tpl
+END

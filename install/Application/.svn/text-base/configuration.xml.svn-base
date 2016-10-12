@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<configuration>
+
+	<!--CONFIGURATION VIEW-->
+	<views-dir         url="Application.View" />
+	<views-compile-dir url="Application.Temp.Compile" />
+	<views-config-dir  url="Application.Configuration.Views" />
+
+	<!--CONFIGURATION MODEL-->
+	<model-dir         url="Application.Model" />
+
+	<!--CONFIGURATION CONTROLLER-->
+	<controller-dir    url="Application.Controller" />
+
+	<!--CONFIGURATION-->
+	<cache enabled="false" url="Application.Temp.Cache" />
+
+	<application mode="debug" log-errors="true" log-type="file">
+		<default-page page="Install" action="" />
+        <debug-error-page>Application.View.Error.debug</error-page>
+        <online-error-page>Application.View.Error.online</error-page>
+    </application>
+	<data-bases manager="adodb-active-record">
+		<data-base>
+			<server>localhost</server>
+			<user>root</user>
+			<password></password>
+			<dbname>test</dbname>
+			<driver>mysql</driver>
+			<classes path="Application.DBClasses" />
+		</data-base>
+	</data-bases>
+</configuration>
