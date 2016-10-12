@@ -1,0 +1,23 @@
+BARAKUS - TODO:
+
+- Manejo de Errores - MEJORADO!!
+- Ver como mejorar los Requests
+- Plugins
+- Documentar ... PHP-Doc (URGENTE!)
+- ConfigGenerator no hay manejo de errores *****************
+- Intentar hacer como hace PRADO y .NET con los MasterContent (cada template tendria su MASTER, y la vista seria sin los includes)
+- Leer ZNF Framework, buenas ideas.
+- Pagina de Acceso no autorizado en el ConfigFILE
+- AutoStart, Tipo (Puede ser en BD para mas seguridad) y lifetime de Session en el configfile.
+- Leer Zoop Framework, me gusto la parte de plugins de Smarty facil sin saber nada de, justamente, Smarty. Tambien la parte de "Resources"
+- Global Exceptions y los Forwards de Studs.
+- Quizas armar un "BUILD" tipo el de Studs para comprimir la aplicacion [PHING].
+- Quizas tener un objeto Request que se encargue de tener toda la informacion del request al Controller.
+- Analizar si hace falta pasar por parametro algunos objetos al Controller (con esto solucionaria el problema de tener SESSION, REQUEST, POST y GET estaticos)
+- Revisar el SAX Parser (quizas el de Studs) para parsear el XML si es que es muy pesado el actual.
+- http://www.phpclasses.org/browse/package/3686.html y (mucho mas completa) http://formitable.sourceforge.net/  Interesante para generar formularios automaticamente a partir de una tabla de una base de datos, mas que interesante para el admin (Agregar y Editar).
+- Alguna manera de acceder al Barakus que no sea estaticamente
+- Crear un objeto Error que tenga toda la informacion del error (leer: http://www.koders.com/php/fidC26674C3B00C460E8E15EBEB7F976B29BC08B042.aspx?s=singleton)
+- Hacer lo que hace prado con los paths, define los paths a incluir (mas que nada includes de funciones o componentes de la aplicacion)
+- LO QUE HICE EN EL CONTROLLER (getModel($model)) ESTA MAL CONCEPTUALMENTE. REVISARLO. ¿HACER UN BUILDER?
+- Usar el patron "Adapter" para las librerias. Hacerlo mas general para que el usuario pueda usar sus propias librerias, quizas obligarlo a crear un adapter para eso, no creo.

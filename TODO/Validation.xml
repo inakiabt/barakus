@@ -1,0 +1,20 @@
+<validate id="Contacto">
+	<nombre notEmpty="true" />
+	<apellido isString="true" />
+	<direccion isString="true" />
+	<email>
+		<notEmpty error="No puede ser vacio" />
+		<isEmail error="Debe ser un email valido" />
+	</email>
+	<telefono>
+		<isString error="Debe ser una cadena de caracteres" />
+	</telefono>
+</validate>
+<!--
+
+Algun ejemplo en la vista podria ser (esto si todavia no voy a usar controles dinamicos):
+
+//Creo que me cagaria para checkbox, radio y selects.
+Nombre: <input type="text" name="nombre" {validate for="name"} />
+
+-->
